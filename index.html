@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita&family=Edu+SA+Beginner&display=swap" rel="stylesheet">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalia says</title>
+</head>
+<body>
+    <h1>Dalia quotes generator</h1>
+    <div id="create_elements_container">
+        <textarea id="input_textarea" 
+        placeholder="write something here..."
+        rows="4"></textarea>
+        <button id="create_button"
+        onclick="create_quote()"
+        >Create</button>
+    </div>
+    <div id="result_area">
+        <div id="img_container">
+            <img src="dalia.png" id="profile_picture">
+        </div>
+        <div id="quote_zone">
+            Dalia says:<br>
+            <!-- <span class="comms">“</span> -->
+            <span id="quote">
+            </span>
+            <!-- <span class="comms">”</span> -->
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

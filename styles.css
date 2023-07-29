@@ -1,0 +1,113 @@
+body {
+    background-color: #ed8ad1;
+    width: 100vw;
+    margin:0px;
+    padding:0px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 4px 4px 12px rgb(187, 66, 66);
+    font-family:'Segoe UI';
+    font-style: italic;
+    text-align: center;
+}
+
+#create_elements_container {
+    width: 90vw;
+    margin-left: 5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#create_elements {
+    background-color: red;
+}
+
+#input_textarea {
+    width: 90vw;
+    resize: none;
+    display: block;
+    box-sizing:border-box;
+    border-radius: 1vw;
+    border: 0px;
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+#create_button {
+    margin-top: 5px;
+    width: 100%;
+    height: 8vh;
+    display: block;
+    border: 0px;
+    font-size: 4vh;
+    color: white;
+    background-color: crimson;
+    font-family:'Segoe UI';
+    font-weight: 600;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 8px black;
+}
+
+#create_button:hover
+{
+    background-color:rgb(237, 42, 81);
+}
+#create_button:focus
+{
+    background-color:rgb(237, 42, 81);
+}
+
+#create_button:active
+{
+    background-color: rgb(169, 13, 44);
+}
+
+/* ----- result area ----- */
+#result_area {
+    margin-left: 5vw;
+    margin-top: 4vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+}
+
+#img_container {
+    width: 100%;
+}
+
+#profile_picture {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+}
+
+#quote_zone {
+    margin-left: 3vw;
+    background-color: rgba(169, 79, 150, 0.597);
+    font-family:'Segoe UI';
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+    display: inline-block;
+    overflow: hidden;
+    padding: 3%;
+    border-radius: 3vh;
+}
+
+#quote {
+    font-family: 'Amita', cursive;
+    font-size: 3.5vh;
+}
+
+.comms {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12vh;
+    font-weight: 800;
+    color: antiquewhite;
+}
